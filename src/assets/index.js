@@ -5,6 +5,9 @@ import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
+import logo_TBB from './logo/logo.png';
+import logo_TBB_Transparent from './logo/logo-PhotoRoom.png'
+
 
 import shaq from './personal/shaq.png';
 
@@ -37,8 +40,15 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import fastapi from './tech/fastapi.png';
+import django from './tech/django.png';
+import mongodb from './tech/mongodb.png';
+import python from './tech/python.png';
 
 import coverhunt from './company/coverhunt.png';
+import UFA from './company/UFA.png';
+import WelkinMechanical from './company/Welkin-Mechanical.png';
+import PSEP from './company/PSEP.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
@@ -49,6 +59,10 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import VitalityFitness from './projects/Vitality-Fitness.png';
+import ConferenceGO from './projects/ConferenceGO.png';
+import CarCar from './projects/CarCar.png';
+
 
 export {
   bwmap,
@@ -57,6 +71,8 @@ export {
   worldmap,
   logo,
   logotext,
+  logo_TBB,
+  logo_TBB_Transparent,
   shaq,
   backend,
   ux,
@@ -96,4 +112,14 @@ export {
   dcc,
   kelhel,
   microverse,
+  django,
+  fastapi,
+  mongodb,
+  python,
+  UFA,
+  WelkinMechanical,
+  PSEP,
+  VitalityFitness,
+  ConferenceGO,
+  CarCar
 };

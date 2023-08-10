@@ -4,7 +4,6 @@ import {
   ux,
   prototyping,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -12,22 +11,29 @@ import {
   tailwind,
   nodejs,
   git,
-  figma,
   docker,
   postgresql,
-  rubyrails,
-  graphql,
   komikult,
   leaderboard,
   math,
   movie,
   nyeusi,
-  space,
   coverhunt,
   dcc,
   kelhel,
   microverse,
+  django,
+  fastapi,
+  mongodb,
+  python,
+  UFA,
+  WelkinMechanical,
+  PSEP,
+  VitalityFitness,
+  ConferenceGO,
+  CarCar,
 } from '../assets';
+
 
 export const navLinks = [
   {
@@ -46,11 +52,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Front-End Developer',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Back-End Developer',
     icon: backend,
   },
   {
@@ -65,6 +71,14 @@ const services = [
 
 const technologies = [
   {
+    name: 'python',
+    icon: python,
+  },
+  {
+    name: 'JavaScript',
+    icon: javascript,
+  },
+  {
     name: 'HTML 5',
     icon: html,
   },
@@ -73,12 +87,12 @@ const technologies = [
     icon: css,
   },
   {
-    name: 'JavaScript',
-    icon: javascript,
+    name: 'django',
+    icon: django,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
+    name: 'fastapi',
+    icon: fastapi,
   },
   {
     name: 'React JS',
@@ -97,24 +111,16 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
     name: 'postgresql',
     icon: postgresql,
   },
   {
-    name: 'git',
-    icon: git,
+    name: 'mongodb',
+    icon: mongodb,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'git',
+    icon: git,
   },
   {
     name: 'docker',
@@ -124,40 +130,33 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Junior Estimator',
+    company_name: 'Welkin Mechanical',
+    icon: WelkinMechanical,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'May 2021 - Nov 2022',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Web Developer (Volunteer)',
+    company_name: 'Urban Food Alliance',
+    icon: UFA,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'May 2023 - July 2023',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Full Stack Software Engineer',
+    company_name: 'Personal SWE Projects',
+    icon: PSEP,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'May 2023 - Present',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Vitality Fitness',
+    description: 'A workout tracker that provides Youtube guides for completed and upcoming workouts.',
     tags: [
       {
         name: 'react',
@@ -172,15 +171,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
+    image: VitalityFitness,
+    repo: 'https://gitlab.com/tbb257/vitality-fitness',
     demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'ConferenceGO',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Management System allowing organizations to track conferences by locations/centers.',
     tags: [
       {
         name: 'react',
@@ -195,14 +194,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
+    image: ConferenceGO,
+    repo: 'https://gitlab.com/tbb257/ConferenceGO',
     demo: 'https://shaqdeff.github.io/Leaderboard/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'CarCar',
+    description: 'Multi-service system tracking both dealership sales and service appointments.',
     tags: [
       {
         name: 'nextjs',
@@ -217,54 +216,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
+    image: CarCar,
+    repo: 'https://gitlab.com/tbb257/CarCar',
     demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
   },
 ];
 

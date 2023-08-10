@@ -31,19 +31,17 @@ const About = () => {
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Who Am I?</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+          Greetings! My name is Tahmid Baro Bhuiyan, and I'm a self-taught Full Stack Software Engineer. But alongside that, I'm also an engineer, problem-solver and all-around builder
+          who enjoys creating things! I have a background in Civil Engineering from New York University, and analytical experience as an Estimator in Construction Management prior
+          to my transition to Software Development. Some of my hobbies include: building computers, collecting Pokemon Cards, playing basketball, rock climbing, and building applications!
       </motion.p>
+
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
