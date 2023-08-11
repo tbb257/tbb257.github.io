@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://tbb257.github.io",
+  "homepage":"https://tbb257.github.io/tbb257.github.io",
   "scripts": {
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
