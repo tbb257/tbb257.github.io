@@ -37,7 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          Greetings! My name is Tahmid Baro Bhuiyan, and I'm a self-taught Full Stack Software Engineer. But alongside that, I'm also an engineer, problem-solver and all-around builder
+          Greetings! My name is Tahmid Baro Bhuiyan, and I'm a self-taught Full Stack Software Engineer. But beyond that, I'm an engineer, problem-solver and holistic builder
           who enjoys creating things! I have a background in Civil Engineering from New York University, and analytical experience as an Estimator in Construction Management prior
           to my transition to Software Development. Some of my hobbies include: building computers, collecting Pokemon Cards, playing basketball, rock climbing, and building applications!
       </motion.p>

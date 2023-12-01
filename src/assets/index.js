@@ -62,6 +62,7 @@ import space from './projects/space-hub.png';
 import VitalityFitness from './projects/Vitality-Fitness.png';
 import ConferenceGO from './projects/ConferenceGO.png';
 import CarCar from './projects/CarCar.png';
+import Pokedex from './projects/Pokedex.png';
 
 
 export {
@@ -121,5 +122,6 @@ export {
   PSEP,
   VitalityFitness,
   ConferenceGO,
-  CarCar
+  CarCar,
+  Pokedex,
 };

@@ -32,6 +32,7 @@ import {
   VitalityFitness,
   ConferenceGO,
   CarCar,
+  Pokedex,
 } from '../assets';
 
 
@@ -130,11 +131,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Junior Estimator',
-    company_name: 'Welkin Mechanical',
-    icon: WelkinMechanical,
+    title: 'Full Stack Software Engineer',
+    company_name: 'Personal SWE Projects',
+    icon: PSEP,
     iconBg: '#333333',
-    date: 'May 2021 - Nov 2022',
+    date: 'May 2023 - Present',
   },
   {
     title: 'Web Developer (Volunteer)',
@@ -144,11 +145,11 @@ const experiences = [
     date: 'May 2023 - July 2023',
   },
   {
-    title: 'Full Stack Software Engineer',
-    company_name: 'Personal SWE Projects',
-    icon: PSEP,
+    title: 'Junior Estimator',
+    company_name: 'Welkin Mechanical',
+    icon: WelkinMechanical,
     iconBg: '#333333',
-    date: 'May 2023 - Present',
+    date: 'May 2021 - Nov 2022',
   },
 ];
 
@@ -177,6 +178,29 @@ const projects = [
   },
   {
     id: 'project-2',
+    name: 'Pokedex',
+    description:
+      'Pokedex application allowing users to view and fitler Pokemon from every region as of 2023.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: Pokedex,
+    repo: 'https://gitlab.com/tbb257/pokemon-pokedex',
+    demo: 'https://shaqdeff.github.io/Leaderboard/',
+  },
+  {
+    id: 'project-3',
     name: 'ConferenceGO',
     description:
       'Management System allowing organizations to track conferences by locations/centers.',
@@ -199,7 +223,7 @@ const projects = [
     demo: 'https://shaqdeff.github.io/Leaderboard/',
   },
   {
-    id: 'project-3',
+    id: 'project-4',
     name: 'CarCar',
     description: 'Multi-service system tracking both dealership sales and service appointments.',
     tags: [
