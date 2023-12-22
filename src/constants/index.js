@@ -173,7 +173,7 @@ const projects = [
       },
     ],
     image: VitalityFitness,
-    repo: 'https://gitlab.com/tbb257/vitality-fitness',
+    repo: 'https://github.com/tbb257/vitality-fitness',
     demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {
@@ -196,7 +196,7 @@ const projects = [
       },
     ],
     image: Pokedex,
-    repo: 'https://gitlab.com/tbb257/pokemon-pokedex',
+    repo: 'https://github.com/tbb257/pokedex',
     demo: 'https://shaqdeff.github.io/Leaderboard/',
   },
   {
@@ -219,7 +219,7 @@ const projects = [
       },
     ],
     image: ConferenceGO,
-    repo: 'https://gitlab.com/tbb257/ConferenceGO',
+    repo: 'https://github.com/tbb257/ConferenceGO',
     demo: 'https://shaqdeff.github.io/Leaderboard/',
   },
   {
@@ -241,7 +241,7 @@ const projects = [
       },
     ],
     image: CarCar,
-    repo: 'https://gitlab.com/tbb257/CarCar',
+    repo: 'https://github.com/tbb257/CarCar',
     demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
   },
 ];
